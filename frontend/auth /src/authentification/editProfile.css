@@ -1,0 +1,32 @@
+.editProfile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #fbe3d9 0%, #f2f6ff 100%);
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+.editProfile-left {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.editProfile-card {
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.editProfile-card:hover {
+  transform: translateY(-4px);
+}

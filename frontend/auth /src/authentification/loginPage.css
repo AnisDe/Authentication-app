@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Left side (form) */
+.login-left {
+  flex: 1;
+   background: linear-gradient(90deg, #fbe3d9 0%, #f2f6ff 100%);
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 50%;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+.required {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="username"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #2d2d44;
+  color: white;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #4f9cff;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.show-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: #4f9cff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Buttons */
+.sign-in-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4f9cff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: #337fd9;
+}
+
+.extra-links {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.extra-links a {
+  color: #4f9cff;
+  text-decoration: none;
+}
+
+/* Right: Promo Section */
+.login-right {
+  flex: 1;
+   background: linear-gradient(90deg, #f2f6ff 0%, #fbe3d9 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  min-width: 50%;
+  text-align: center;
+}
+
+.promo h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.promo p {
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.learn-btn {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #1e1e2f;
+  transition: background-color 0.3s;
+}
+
+.learn-btn:hover {
+  background-color: #f0f0f0;
+}
+.login-left {
+  color: #1e1e2f; /* dark slate instead of white */
+}
+
+label {
+  color: #333; /* Darker for readability */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="username"] {
+  background-color: #ffffff;
+  color: #1e1e2f;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #4f9cff;
+}
+.sign-in-btn {
+  background-color: #4f9cff;
+  color: white;
+}
+
+.sign-in-btn:hover {
+  background-color: #337fd9;
+}
+.login-right {
+  color: #1e1e2f; /* match left side */
+}
+form {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
